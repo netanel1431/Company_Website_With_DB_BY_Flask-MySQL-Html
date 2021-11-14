@@ -9,11 +9,26 @@
   * Config complex password
   * Password save on DB with HMAC+Salt Function
   * Configure email for user
-* Forgot Password Window
+* Change Password Window
+  * Current Password
+  * New Password (adjust the System_Details.txt file)
 * Login Window -Welcom to Comunication_LTD
   * User input
   * Password input
   * Check if user exist on DB 
+* System Window
+  * Input new customer
+  * Display all customers
+* Forgot Password Window
+  * Email authentication
+* SQL Injection -Enable/disable login with SQL Injection
+* System_Details.txt -Password management configuration file
+  * Len password
+  * Complex password
+  * History
+  * 100 common password
+  * Count Failed Attempt Login
+  
 
 
 # Folder:
