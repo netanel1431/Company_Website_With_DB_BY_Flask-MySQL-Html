@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Failed Create New Account</title>
+    <link rel="stylesheet" href="../static/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <script src="../static/jquery-1.11.1.min.js"></script>
+    <script src="../static/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<h1>Welcome to Failed Create New Account Page</h1>
+<p>"Failed Create New Account because one of the next possible options:"</p>
+<p>"1. The input email: {{ message[0] }} -> is include only number"</p>
+<p>"2. The input email: {{ message[0] }} -> is not valid email"</p>
+<p>"3. The input id:    {{ message[1] }} -> is not include only number"</p>
+<p>"4. The input age:   {{ message[2] }} -> is not include only number"</p>
+<p>"5. The input password: {{ message[3] }} -> is on the 100_common_password"</p>
+<p>"6. The input len of the password:{{ message[3] }} -> is to low from the minimum required"</p>
+<p>"7. The input password: {{ message[3] }} is must include 3 of the next 4 parameters :digit,upper_letter,lower_letter,special_symbol"</p>
+<p>"8. The input username: {{ message[4] }} is already exist on our DB, please choose different username"</p>
+<p><a href=Go_Back_To_Homepage ><button>Go_Back_To_Homepage</button></a></p>
+</body>
+</html>
