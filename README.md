@@ -1,7 +1,11 @@
 # Company_Website_With_DB_BY_Flask-MySQL-Html
 
 # Background on our project
-
+* A web system must be developed - And in its database you can find information about the company's customers.<br/>
+* MySQL-DataBase<br/>
+* Web based Python-Flask<br/>
+* Register Window<br/>
+  * Create New Users<br/>
 
 
 # Folder:
