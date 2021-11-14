@@ -1,6 +1,6 @@
 # Company_Website_With_DB_BY_Flask-MySQL-Html
 
-# Background on our project
+# Our project
 * A web system must be developed - And in its database you can find information about the company's customers.<br/>
 * MySQL-DataBase<br/>
 * Web based Python-Flask<br/>
@@ -9,6 +9,11 @@
   * Config complex password
   * Password save on DB with HMAC+Salt Function
   * Configure email for user
+* Forgot Password Window
+* Login Window -Welcom to Comunication_LTD
+  * User input
+  * Password input
+  * Check if user exist on DB 
 
 
 # Folder:
