@@ -1,0 +1,13 @@
+fieldset {
+    width: 400px;
+    margin: auto;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+}
+
+input[type=button]{
+    margin: auto;
+}

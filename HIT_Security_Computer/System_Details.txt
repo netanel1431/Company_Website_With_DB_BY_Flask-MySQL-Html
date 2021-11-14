@@ -1,0 +1,15 @@
+{
+"Password_Len": 10,
+"Complex_Password": true,
+"History": 3,
+"Compare_Common_Password": true,
+"Reattempt":3,
+"Email_Name":"xxxxxxxxxxxxxxxxxxxxx@gmail.com",
+"Email_Password":"xxxxxxxxxxxxxxx",
+"Username_MySQL":"root",
+"Password_MySQL":"xxxxxxxxxx",
+"MySQL_Server_IP":"127.0.0.1",
+"DB_Name":"hit_cyber_project_db",
+"MySQL_Port":3306,
+"auth_plugin":"mysql_native_password"
+}
