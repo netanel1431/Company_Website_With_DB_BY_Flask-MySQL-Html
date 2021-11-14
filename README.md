@@ -20,7 +20,7 @@
   * Input new customer
   * Display all customers
 * Forgot Password Window
-  * Email authentication
+  * Email authentication- via random verfication key by SHA-1
 * SQL Injection -Enable/disable login with SQL Injection
 * System_Details.txt -Password management configuration file
   * Len password
