@@ -5,7 +5,10 @@
 * MySQL-DataBase<br/>
 * Web based Python-Flask<br/>
 * Register Window<br/>
-  * Create New Users<br/>
+  * Create new users<br/>
+  * Config complex password
+  * Password save on DB with HMAC+Salt Function
+  * Configure email for user
 
 
 # Folder:
