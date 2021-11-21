@@ -9,12 +9,16 @@
     <script src="../static/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<p>"We send to your Email: {{ message }} random code"</p>
+<div data-role="header">
+    <h1>Check verification Code</h1>
+</div>
+<div data-role="content">
+    <h3>We send to your Email: {{ message }} random code</h3>
         <form action="Check_Verification_Code" method="post">
             Enter The Random Code: <input type="text" id="random_code" name="random_code"/>
             <br>
-            <input type="submit" value="Check_Code" id="Check_Code" name="Check_Code">
+            <input type="submit" value="Check code" id="Check_Code" name="Check_Code">
         </form>
-
+</div>
 </body>
 </html>

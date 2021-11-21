@@ -9,15 +9,10 @@
     <script src="../static/jquery.mobile-1.4.5.min.js"></script>title></title>
 </head>
 <body>
-<style>
- 
- td {
-        width: 150px;
-        text-align: center;
-        border: 1px solid black;
-        padding: 5px;
-      }
-</style>
+<div data-role="header">
+    <h1>Customers Table</h1>
+</div>
+<div data-role="content">
 <table>
   <thead>
     <tr>
@@ -38,6 +33,7 @@
         {% endfor %}
     </tbody>
 </table>
-<p><a href=Go_Back_To_Homepage ><button>Go_Back_To_Homepage</button></a></p>
+    <a href=Go_Back_To_Homepage ><button>Back to homepage</button></a>
+    </div>
 </body>
 </html>

@@ -9,22 +9,25 @@
     <script src="../static/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<h1>Welcome to Comunication_LTD Homepage</h1>
-<form action="Login_Window" method="post">
-User Name: <input type="text" id="username" name="username"/>
-<br>
-Password: <input type="password" id="password" name="password"/>
-<br>
-<input type="submit" value="Log In"             id="logInBtn" name="logInBtn">
-Enable Login with SQL-Injection<input type="checkbox" value="loginwithsqlinjection" name="loginwithsqlinjection">
-<br>
-<br>
-<input type="submit" value="Create New Account" id="logInBtn" name="logInBtn">
-<input type="submit" value="Forget Password"    id="logInBtn" name="logInBtn">
-<input type="submit" value="Change Current Password"    id="logInBtn" name="logInBtn">
-</form>   
-
-
-
+    <div data-role="header" >
+            <h1>Welcome to Communication_LTD Homepage</h1>
+    </div>
+    <div data-role="content">
+        <form action="Login_Window" method="post">
+            User Name: <input type="text" id="username" name="username"/>
+            <br>
+            Password: <input type="password" id="password" name="password"/>
+            <br>
+            <input type="submit" value="Log In" id="logInBtn" name="logInBtn">
+            <br>
+            <input type="checkbox" value="loginwithsqlinjection" name="loginwithsqlinjection">
+            Enable Login with SQL-Injection:
+            <br>
+            <br>
+            <input type="submit" value="Create New Account" name="logInBtn">
+            <input type="submit" value="Forget Password" name="logInBtn">
+            <input type="submit" value="Change Current Password" name="logInBtn">
+        </form>
+    </div>
 </body>
 </html>

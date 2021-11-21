@@ -77,7 +77,7 @@ def Create_Account_Window():
 @app.route("/Forgot_Password", methods=['GET', 'POST'])
 def Forgot_Password():
     if request.method == 'POST':
-        if request.form['Forgot_Password'] == "Send Verfication Code":
+        if request.form['Forgot_Password'] == "Send Verification Code":
             data={"username": request.form.get('username')}
             forgot_password=Forget_Password(input_username=data["username"])
 
@@ -93,7 +93,7 @@ def Forgot_Password():
 @app.route("/Check_Verification_Code", methods=['GET', 'POST'])
 def Check_Verification_Code():
     if request.method == 'POST':
-        if request.form['Check_Code'] == "Check_Code":
+        if request.form['Check_Code'] == "Check code":
             if session.get('random_password', None) ==request.form.get('random_code'):
 
                 return render_template('3_3_Update_Password.html',message=session.get('username', None))
@@ -127,7 +127,7 @@ def Add_Customer():
 @app.route("/Display_Customer", methods=['GET', 'POST'])
 def Display_Customer():
     if request.method == 'POST':
-        if request.form['Display_Customer'] == "Display_Customer":
+        if request.form['Display_Customer'] == "Display customer":
             data=Get_All_Customer()
             return render_template('4_Display_All_Customers.html', data=data)
 

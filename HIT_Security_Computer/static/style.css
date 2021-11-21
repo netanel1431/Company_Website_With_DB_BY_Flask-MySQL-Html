@@ -3,6 +3,12 @@ fieldset {
     margin: auto;
 }
 
+h3{
+    text-align: center;
+}
+p{
+    margin: auto;
+}
 form{
     width: 400px;
     margin: auto;
@@ -11,3 +17,15 @@ form{
 input[type=button]{
     margin: auto;
 }
+
+input[type=checkbox]{
+    margin: auto;
+    width: 500px
+}
+
+ td {
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      }

@@ -9,22 +9,20 @@
     <script src="../static/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-		<h1>Welcome to Create New Account Page</h1>
+    <div data-role="header">
+        <h1>Welcome to Create New Account Page</h1>
+    </div>
+    <div data-role="content">
         <form action="Create_Account_Window" method="post">
             User Name:<input type="text" 	 id="username" name="username"/>
-            <br>
             Password:<input  type="password" id="password" name="password"/>
-            <br>
             Email: 	 <input  type="text"     id="email" name="email"/>
-            <br>
             Id:      <input  type="text"     id="id"    name="id"/>
-            <br>
             Age:     <input  type="text"     id="age"	name="age"/>
-            <br>
 			<input type="submit"  value="Create Account" id="createAccount" name="createAccount">
-			<p><a href=Go_Back_To_Homepage ><button>Go_Back_To_Homepage</button></a></p>
+			<a href=Go_Back_To_Homepage ><button>Back to homepage</button></a>
         </form>
 
-
+</div>
 </body>
 </html>

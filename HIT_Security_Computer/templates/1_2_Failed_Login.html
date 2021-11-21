@@ -9,12 +9,17 @@
     <script src="../static/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<p>"Failed login because the next possible options:"</p>
-<p>"1. The input username: {{ message[0] }} -> does not match to any username from the DB"</p>
-<p>"2. The input username: {{ message[0] }} -> is lock you need to wait until 30 min will be pass"</p>
-<p>"3. The input password: {{ message[1] }} -> does not match to the password that save on DB"</p>
-<p>Note:After 3 Times fail to login the User will be lock for 30 min"</p>
-<button onclick="goBack()">Go Back</button>
+<div data-role="header">
+    <h1>Failed to LogIn</h1>
+</div>
+<div data-role="Content">
+        <h3>Failed login because the next possible options:</h3>
+        <p>1. The input username: {{ message[0] }} -> does not match to any username from the DB</p>
+        <p>2. The input username: {{ message[0] }} -> is lock you need to wait until 30 min will be pass</p>
+        <p>3. The input password: {{ message[1] }} -> does not match to the password that save on DB</p>
+        <p>Note:After 3 Times fail to login the User will be lock for 30 min"</p>
+        <input type="button" onclick="goBack()" value="Back">
+    </div>
 <script>
 function goBack() {
   window.history.back();
