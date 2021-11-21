@@ -21,6 +21,7 @@
   * Display all customers
 * Forgot Password Window
   * Email authentication- via random verfication key by SHA-1
+  * Note: If you are internet connection is via proxy the email authentication will be failed !
 * SQL Injection -Enable/disable login with SQL Injection
 * System_Details.txt -Password management configuration file
   * Len password
@@ -28,6 +29,7 @@
   * History
   * 100 common password
   * Count Failed Attempt Login
+  * Note:Please modify the file and you details like email account and email password...
   
 
 
