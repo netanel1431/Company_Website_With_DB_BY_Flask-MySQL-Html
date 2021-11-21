@@ -114,7 +114,7 @@ def Update_Password():
 @app.route("/Add_Customer", methods=['GET', 'POST'])
 def Add_Customer():
     if request.method == 'POST':
-        if request.form['Add_Customer'] == "Add_Customer":
+        if request.form['Add_Customer'] == "Add Customer":
             data = {
                 "username": request.form.get('username'),
                 "phone": request.form.get('phone'),
