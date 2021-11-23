@@ -34,7 +34,7 @@
 
 
 # Folder:
-* DataBase-Export = My DataBase (2 tables:hit_cyber_project_db_customer_details,hit_cyber_project_db_user_details)<br/>
+* DataBase-Export = My DataBase (two tables:hit_cyber_project_db_customer_details,hit_cyber_project_db_user_details)<br/>
 * Static = CSS & JS Files<br/>
 * templates = html files<br/>
 # Files:
