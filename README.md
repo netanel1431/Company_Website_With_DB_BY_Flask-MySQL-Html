@@ -35,7 +35,7 @@
 
 # Folder:
 * DataBase-Export = My DataBase (2 tables:hit_cyber_project_db_customer_details,hit_cyber_project_db_user_details)<br/>
-* Staic = CSS & JS Files<br/>
+* Static = CSS & JS Files<br/>
 * templates = html files<br/>
 # Files:
 * 100_common_password.txt=All the 100 common weak password that our website not allowed to register with them .<br/>
