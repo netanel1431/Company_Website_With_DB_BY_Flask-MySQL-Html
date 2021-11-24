@@ -1,4 +1,4 @@
-# Company_Website_With_DB_BY_Flask & MySQL & Html
+# Company_Website_With_DB_BY_Flask & MySQL & HTML
 
 # Our project
 * A web system must be developed - And in its database you can find information about the company's customers.<br/>
