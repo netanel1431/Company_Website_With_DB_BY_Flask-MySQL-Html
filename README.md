@@ -44,3 +44,19 @@
 * Main.py=This File contain all Functions/Class for the BE.<br/>
 * MySQL_Query.py =This File contain all Functions that connect and query a DB.<br/>
 * Salt_HMAC_Function.py=This File contain all Functions that convert our plain text password to hasing password with HMAC.<br/>
+# Python:
+* Using Python 3.7
+* Import the next lib:
+  * flask
+  * re
+  * MySQL_Query
+  * datetime
+  * random
+  * string
+  * hashlib
+  * smtplib
+  * from email.mime.multipart import MIMEMultipart # pip install qick-mailer
+  * from email.mime.text import MIMEText # This Module Support Gmail & Microsoft Accounts (hotmail, outlook etc..)
+  * json
+  * mysql.connector #pip install mysql-connector-python
+  * binascii
