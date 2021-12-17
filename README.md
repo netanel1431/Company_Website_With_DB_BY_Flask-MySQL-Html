@@ -60,3 +60,5 @@
   * json
   * mysql.connector #pip install mysql-connector-python
   * binascii
+ # Note:
+ * The the Email message to "Fortget Password" dont work if your interntet access is going via proxy server
