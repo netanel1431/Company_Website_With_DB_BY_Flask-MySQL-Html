@@ -1,5 +1,7 @@
 # Company_Website_With_DB_BY_Flask & MySQL & HTML
 
+![Home_Page_Photo](https://user-images.githubusercontent.com/50228442/147861710-9400fc8e-59e1-4bd6-beb7-2c8a41b11103.JPG)
+
 # Our project
 * A web system must be developed - And in its database you can find information about the company's customers.<br/>
 * MySQL-DataBase<br/>
