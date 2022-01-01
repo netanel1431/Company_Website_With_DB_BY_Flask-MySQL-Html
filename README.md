@@ -62,6 +62,6 @@
   * json
   * mysql.connector #pip install mysql-connector-python
   * binascii
- # Note:
- * The the Email message to "Fortget Password" dont work if your interntet access is going via proxy server.
+ # Note -> The "Forget Password" button/function dont work when:
+ * If your interntet access is going via proxy server.
  * Need Change the security configuration of your Gmail account to allow access from APP with low security.Enforce access to less secure apps for all users  -> The Gmail account of the system Email thah configure on the System_Details.txt file (You can see on this WEB https://hotter.io/docs/email-accounts/secure-app-gmail/)
